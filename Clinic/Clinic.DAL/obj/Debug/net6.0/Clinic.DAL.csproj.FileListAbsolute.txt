@@ -1,0 +1,14 @@
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.DAL\bin\Debug\net6.0\Clinic.DAL.deps.json
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.DAL\bin\Debug\net6.0\Clinic.DAL.runtimeconfig.json
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.DAL\bin\Debug\net6.0\Clinic.DAL.dll
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.DAL\bin\Debug\net6.0\Clinic.DAL.pdb
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.DAL\obj\Debug\net6.0\Clinic.DAL.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.DAL\obj\Debug\net6.0\Clinic.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.DAL\obj\Debug\net6.0\Clinic.DAL.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.DAL\obj\Debug\net6.0\Clinic.DAL.AssemblyInfo.cs
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.DAL\obj\Debug\net6.0\Clinic.DAL.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.DAL\obj\Debug\net6.0\Clinic.DAL.dll
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.DAL\obj\Debug\net6.0\refint\Clinic.DAL.dll
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.DAL\obj\Debug\net6.0\Clinic.DAL.pdb
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.DAL\obj\Debug\net6.0\Clinic.DAL.genruntimeconfig.cache
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.DAL\obj\Debug\net6.0\ref\Clinic.DAL.dll

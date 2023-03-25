@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.BL\bin\Debug\net6.0\Clinic.BL.deps.json
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.BL\bin\Debug\net6.0\Clinic.BL.dll
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.BL\bin\Debug\net6.0\Clinic.BL.pdb
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.BL\bin\Debug\net6.0\Clinic.DAL.dll
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.BL\bin\Debug\net6.0\Clinic.DAL.pdb
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.BL\obj\Debug\net6.0\Clinic.BL.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.BL\obj\Debug\net6.0\Clinic.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.BL\obj\Debug\net6.0\Clinic.BL.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.BL\obj\Debug\net6.0\Clinic.BL.AssemblyInfo.cs
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.BL\obj\Debug\net6.0\Clinic.BL.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.BL\obj\Debug\net6.0\Clinic.BL.csproj.CopyComplete
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.BL\obj\Debug\net6.0\Clinic.BL.dll
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.BL\obj\Debug\net6.0\refint\Clinic.BL.dll
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.BL\obj\Debug\net6.0\Clinic.BL.pdb
+C:\Users\DELL\Desktop\DMS\Clinic\Clinic.BL\obj\Debug\net6.0\ref\Clinic.BL.dll

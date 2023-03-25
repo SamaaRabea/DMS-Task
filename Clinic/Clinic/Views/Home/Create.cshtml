@@ -1,0 +1,49 @@
+﻿@using Clinic.DAL
+@model CreateAppointmentViewModel
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-warning mt-3">
+        <p>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <h6>@error.ErrorMessage</h6>
+            }
+        </p>
+     </div>
+}
+<form asp-action="Create" method="post" class="">
+    <div class="form-group mt-2">
+        <label asp-for="DoctorName" class="control-label"></label>
+        <input asp-for="DoctorName" class="form-control">
+        <span asp-validation-for="DoctorName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PatientName" class="control-label"></label>
+        <input asp-for="PatientName" class="form-control">
+        <span asp-validation-for="PatientName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PatientBirthDate" class="control-label"></label>
+        <input asp-for="PatientBirthDate" class="form-control" />
+        <span asp-validation-for="PatientBirthDate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PatientPhone" class="control-label"></label>
+        <input asp-for="PatientPhone" class="form-control" />
+        <span asp-validation-for="PatientPhone" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AppointmentDate" class="control-label"></label>
+        <input asp-for="AppointmentDate" class="form-control" />
+        <span asp-validation-for="AppointmentDate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AppointmentTime" class="control-label"></label>
+        <input asp-for="AppointmentTime" class="form-control" />
+        <span asp-validation-for="AppointmentTime" class="text-danger"></span>
+    </div>
+    <div class="form-group pt-2">
+        <input type="submit" value="Save" class="btn btn-primary" />
+    </div>
+</form>
