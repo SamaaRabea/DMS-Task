@@ -9,10 +9,12 @@ namespace Clinic.Controllers
     public class HomeController : Controller
     {
         private IAppointmentManager _appointmentManager;
+        private IDoctorManager _doctorManager;
 
-        public HomeController(IAppointmentManager appointmentManager)
+        public HomeController(IAppointmentManager appointmentManager,IDoctorManager doctorManager)
         {
             _appointmentManager = appointmentManager;
+            _doctorManager = doctorManager;
         }
 
         public IActionResult Index()
@@ -22,6 +24,8 @@ namespace Clinic.Controllers
         }
         public IActionResult Create()
         {
+            var doctors = _doctorManager.GetAllDoctors().ToList();
+            ViewBag.Doctors=doctors;
             return View();
         }
         
@@ -40,10 +44,14 @@ namespace Clinic.Controllers
                     return RedirectToAction("Index");
                 }
             }
+
             // If model is not valid return the view with the validation errors
             return View(model);
         }
-
+        public IActionResult Privacy()
+        {
+            return View();
+        }
 
     }
 }

@@ -15,14 +15,15 @@ public class DoctorRepo : GenericRepo<Doctor>, IDoctorRepo
         var today = DateTime.Today;
 
         return _context.Appointments.Include(a => a.Patient)
-                .Where(a => a.DoctorId == id && a.Date == today)
-                //.Include(a => a.Patient)
+                .Where(a => a.DoctorId == id)
+                .OrderBy(a => a.Date)
+                .ThenBy(a => a.Time)
                 .ToList();
     }
     public Doctor GetFirst(String name)
     {
         return _context.Doctors.FirstOrDefault(d => d.Name == name);
-    } 
+    }
 
 }
 

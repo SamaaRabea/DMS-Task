@@ -2,8 +2,9 @@
 
 namespace Clinic.DAL
 {
-	public class CreateAppointmentViewModel
-	{
+	public class CreateAppointmentViewModel 
+    {
+
         [Required]
         public string? PatientName { get; set; }
 
@@ -24,5 +25,7 @@ namespace Clinic.DAL
 
         [Required]
         public string? DoctorName { get; set; }
+
+        
     }
 }

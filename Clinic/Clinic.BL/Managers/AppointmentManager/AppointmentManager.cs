@@ -33,6 +33,11 @@ public class AppointmentManager : IAppointmentManager
 
     public async Task<bool> AddAppointmentAndPatient(CreateAppointmentViewModel model)
     {
+        var doctor = _unitOfWork.DoctorRepo.GetFirst(model.DoctorName);
+       if(doctor == null)
+        {
+            return false;
+        }
         // Check if appointment already exists
         var existingAppointment = await _unitOfWork.AppointmentRepo.GetFirst(new DoctorAppointment { DoctorName = model.DoctorName, AppointmentDate = model.AppointmentDate, AppointmentTime = model.AppointmentTime });
         if (existingAppointment != null)
@@ -50,7 +55,7 @@ public class AppointmentManager : IAppointmentManager
         _patientManager.AddPatient(patient);
         _unitOfWork.AppointmentRepo.SaveChanges();
 
-        var doctor = _unitOfWork.DoctorRepo.GetFirst(model.DoctorName);
+        //var doctor = _unitOfWork.DoctorRepo.GetFirst(model.DoctorName);
 
         // Create a new Appointment
         var appointment = new Appointment
